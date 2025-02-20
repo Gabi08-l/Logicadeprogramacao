@@ -52,54 +52,43 @@ Saída: 1, 3, 5, 8, 9  FEITA/
 
 
 */
-//5-
+//1function
+const imparpar = (num) => {
+  return num % 2 == 0 ? "é par, man" : "O número é impar";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(10));
 
-var numeros = [2, 6, 1, 5, 4, 8];
-console.table(numeros);
-
-numeros.sort();
-console.table(numeros);
-
-
-
-//1function parouimpar(num) {
-    function parouimpar(num) {
-        if (num % 2 == 0) {
-          return console.log(num, "é par");
-        } else {
-          return console.log(num, "é ímpar");
-        }
-      }
-      console.log(parouimpar(10));
-
-
-
-
-
-
-
+console.log("----------------------------------------------------------------");
 //2TABUADA
 
-var tabuada = 5
-console.log(tabuada, "x 1 = ", tabuada  * 1)
-console.log(tabuada, "x 2 = ", tabuada * 2)
-console.log(tabuada, "x 3 = ", tabuada * 3)
-console.log(tabuada, "x 4 = ", tabuada * 4)
-console.log(tabuada, "x 5 = ", tabuada * 5)
-console.log(tabuada, "x 6 = ", tabuada * 6)
-console.log(tabuada, "x 7 = ", tabuada * 7)
-console.log(tabuada, "x 8 = ", tabuada * 8)
-console.log(tabuada, "x 9 = ", tabuada * 9)
-console.log(tabuada, "x 10 = ", tabuada * 10)
+var tabuada = 5;
+console.log(tabuada, "x 1 = ", tabuada * 1);
+console.log(tabuada, "x 2 = ", tabuada * 2);
+console.log(tabuada, "x 3 = ", tabuada * 3);
+console.log(tabuada, "x 4 = ", tabuada * 4);
+console.log(tabuada, "x 5 = ", tabuada * 5);
+console.log(tabuada, "x 6 = ", tabuada * 6);
+console.log(tabuada, "x 7 = ", tabuada * 7);
+console.log(tabuada, "x 8 = ", tabuada * 8);
+console.log(tabuada, "x 9 = ", tabuada * 9);
+console.log(tabuada, "x 10 = ", tabuada * 10);
 
+console.log("-----------------------------------------");
 
 //3
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2);
 
+console.log("----------------------------------------------------------");
 
-
-
-
-
-//4
-
+  //4
+  var numeros = [10, 20, 30, 40];
+  var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
+  console.log(soma);
+  
+  //5-
+  
+  const ordemNumero = [8, 3, 5, 1, 9];
+  console.log(ordemNumero);
+  console.log(ordemNumero.sort());
