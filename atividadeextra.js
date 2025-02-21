@@ -97,3 +97,33 @@ console.log(ordemNumero.sort());
 console.log(
   "========================================================Switch Case======================================================"
 );
+//VAR PROMPT
+//*Estourando cartão versão while
+//1 crie uma variavel e solicite o nome de uma pessoa NO NAVEGADOR
+//2 crie uma variavel e solicite o nome de um banco
+//3 crie uma variavel e solicite o numero de uma agencia
+//4 crie uma variavel e solicite o numero da conta
+//5 crie uma variavel e solicite ao usuario o saldo da conta
+//6 exiba ao usuaario 5 movimentações na conta utilizando o laço while com valores aleatório
+//7 exiba ao usuario novamente os dados e o saldo da conta
+//
+
+
+var nome = prompt("Informe seu nome");
+var banco = prompt("Informe seu banco");
+var agencia = prompt("informeu sua agencia");
+var conta = prompt("Informe o número de sua conta");
+var saldo = prompt ("Informe seu saldo")
+console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo}`)
+
+var contador = 1;
+while (contador <= 5) {
+  console.log(contador);
+let gasto = Math.random()*100; //VALOR ALEATÓRIO ENTRE 0 E 99.999
+saldo -= gasto
+  contador++
+}
+console.log(saldo.toFixed(2)); //DEIXA O VALOR DECIMAL SOMENTE COM 2 CASAS
+
+console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo.toFixed(2)}`)
+
