@@ -109,21 +109,38 @@ console.log(
 //
 
 
-var nome = prompt("Informe seu nome");
-var banco = prompt("Informe seu banco");
-var agencia = prompt("informeu sua agencia");
-var conta = prompt("Informe o número de sua conta");
-var saldo = prompt ("Informe seu saldo")
-console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo}`)
+//var nome = prompt("Informe seu nome");
+//var banco = prompt("Informe seu banco");
+//var agencia = prompt("informeu sua agencia");
+//var conta = prompt("Informe o número de sua conta");
+//var saldo = prompt ("Informe seu saldo")
+//console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo}`)
 
+//var contador = 1;
+//while (contador <= 5) {
+  //console.log(contador);
+//let gasto = Math.random()*100; //VALOR ALEATÓRIO ENTRE 0 E 99.999
+//saldo -= gasto
+  //contador++
+//}
+//console.log(saldo.toFixed(2)); //DEIXA O VALOR DECIMAL SOMENTE COM 2 CASAS
+
+//console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo.toFixed(2)}`)
+
+console.log("===================================================================================")
+ // Jogo cara ou coroa, com 3 rodadas, usando DO-WHILE
+console.log("--------------------------------------")
+console.log("               PLACAR")
+console.log("--------------------------------------")
+console.log(`Vitórias ; variavelVitoria`);
+console.log(`Derrotas: variaveisDerrotas`);
+console.log("=====================================")
+
+var cara = 0;
+var coroa = 0;
 var contador = 1;
-while (contador <= 5) {
-  console.log(contador);
-let gasto = Math.random()*100; //VALOR ALEATÓRIO ENTRE 0 E 99.999
-saldo -= gasto
-  contador++
-}
-console.log(saldo.toFixed(2)); //DEIXA O VALOR DECIMAL SOMENTE COM 2 CASAS
 
-console.log(`Olá ${nome}! Seu banco ${banco} Número da conta: ${conta} | seu saldo é ${saldo.toFixed(2)}`)
-
+do {
+ cara = Math.random()*3 ;
+ console.log("cara")
+} while ());
