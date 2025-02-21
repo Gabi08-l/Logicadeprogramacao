@@ -82,13 +82,18 @@ console.log("Fatorial de 5! =", 5 * 4 * 3 * 2);
 
 console.log("----------------------------------------------------------");
 
-  //4
-  var numeros = [10, 20, 30, 40];
-  var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
-  console.log(soma);
-  
-  //5-
-  
-  const ordemNumero = [8, 3, 5, 1, 9];
-  console.log(ordemNumero);
-  console.log(ordemNumero.sort());
+//4
+var numeros = [10, 20, 30, 40];
+var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
+console.log(soma);
+
+console.log("-------------------------------------------------------");
+//5-
+
+const ordemNumero = [8, 3, 5, 1, 9];
+console.log(ordemNumero);
+console.log(ordemNumero.sort());
+
+console.log(
+  "========================================================Switch Case======================================================"
+);
