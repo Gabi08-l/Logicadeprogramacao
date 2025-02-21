@@ -67,3 +67,6 @@ for (let linha = 0; linha < matriz.length; linha++) {
   }
 }
 console.log("Matriz [linha 0 coluna 0] =", matriz[0][0]);
+
+
+console.log("======================================================================")
