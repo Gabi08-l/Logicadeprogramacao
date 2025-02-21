@@ -76,18 +76,19 @@ console.log(
 //o laço não é executado nenhuma vez.
 //WHILE
 var t = 10;
-while (t >= 10) { //>= ->
+while (t >= 10) {
+  //>= ->
   console.log("Entrei no laço While...");
   t = 0;
 }
 console.log("Terminei!");
 
 //EXEMPLO DE WHILE COM ESCRITA DE 1000 LINHAS
-var i = 0;  
-while (i<100) {
-    console.log(`Escrita de linha ${1}`);
-  i++
-  }
+var i = 0;
+while (i < 100) {
+  console.log(`Escrita de linha ${1}`);
+  i++;
+}
 //Laço repetição while
 //
 //While (condição) {
@@ -103,9 +104,22 @@ while (i<100) {
 //var tentativa = prompt ("Digite a senha");
 
 //while (tentativa !== senhaCorreta) {
-  //tentativa = prompt ("Digite a senha:");
+//tentativa = prompt ("Digite a senha:");
 //}
 
 //console.log("Acesso concedido!");
 
+//DO WHILE testa a condição somente no final do laço de repetição
+//sendo assim,qualquer que seja a condição, o laço é executado pelo menos uma vez.
+//testar antes depois fazer
+console.log("=======================================")
+var x = 10;
 
+do {
+  console.log("Entrei no laço Do-While...");
+  x = 0;
+} while (x > 10);
+
+console.log("Terminei!"); //esse testa até tal requisito não ser mais comprido, no caso,
+//ele faz até o x ser "maior" que 10.
+//No while ele não faz até o reuisito ser cumprido
