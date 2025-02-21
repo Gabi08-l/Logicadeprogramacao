@@ -62,11 +62,50 @@ var matriz = [
 ];
 for (let linha = 0; linha < matriz.length; linha++) {
   for (let coluna = 0; coluna < matriz[0].length; coluna++) {
-// console.log("Matriz[", linha, "][", coluna, "] =", matriz[linha][coluna]);
-     console.log(`Matriz [${linha}][${coluna}] = ${matriz[linha][coluna]}`);
+    // console.log("Matriz[", linha, "][", coluna, "] =", matriz[linha][coluna]);
+    console.log(`Matriz [${linha}][${coluna}] = ${matriz[linha][coluna]}`);
   }
 }
 console.log("Matriz [linha 0 coluna 0] =", matriz[0][0]);
 
+console.log(
+  "=================================//Laço repetição /  While e Do While====================================="
+);
+//Laço repetição /  While e Do While
+//While -> testa a condição de entrar no laço de repetição. Se a condição for inicialmente falsa,
+//o laço não é executado nenhuma vez.
+//WHILE
+var t = 10;
+while (t >= 10) { //>= ->
+  console.log("Entrei no laço While...");
+  t = 0;
+}
+console.log("Terminei!");
 
-console.log("======================================================================")
+//EXEMPLO DE WHILE COM ESCRITA DE 1000 LINHAS
+var i = 0;  
+while (i<100) {
+    console.log(`Escrita de linha ${1}`);
+  i++
+  }
+//Laço repetição while
+//
+//While (condição) {
+//fragmentos de codigo
+//fragmentos de codigo
+//fragmentos de codigo
+//fragmentos de codigo
+//contador ++| nesta parte o contador é a variavel de controle de acesso = i|
+//}
+
+//exemplo funciona somente no nav
+//var senhaCorreta = "1234";
+//var tentativa = prompt ("Digite a senha");
+
+//while (tentativa !== senhaCorreta) {
+  //tentativa = prompt ("Digite a senha:");
+//}
+
+//console.log("Acesso concedido!");
+
+
